@@ -20,4 +20,4 @@ jobs:
           aws-region: ap-southeast-2
 
       - name: Upload to S3
-        run: aws s3 sync . s3://thebarkingworm.com --delete
+        run: aws s3 sync ./thebarkingworm.com s3://thebarkingworm.com --delete  --exclude ".git/*" --exclude ".github/*"
