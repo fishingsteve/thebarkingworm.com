@@ -1,0 +1,17 @@
+@font-face{
+	font-family:'roboto_condensedregular';
+	src:url('fonts/RobotoCondensed-Regular-webfont.woff');
+}
+
+body{
+    font-family: 'roboto_condensedregular', sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+}
+
+h1{
+    font-family: 'roboto_condensedregular', sans-serif;
+    font-size: 45px;
+}
